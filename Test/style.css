@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 80px;
+    background-color: bisque;
+    color: rgb(74, 142, 245);
+}
+
+#quiz-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#prev-btn {
+    background-color: rgb(3, 113, 182);
+}
+
+#submit-btn {
+    background-color: rgb(242, 5, 5);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
